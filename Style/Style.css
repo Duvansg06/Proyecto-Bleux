@@ -501,7 +501,11 @@ footer{
        
     }
     .titulo2{
-        margin-left: 20px;
+        /* text-align: center; */
+        /* margin-left: 5px; */
+    }
+    .texto2 h3{
+        text-align: center;
     }
 
     .Banner2{
@@ -523,7 +527,8 @@ footer{
         height: 190px;
     }
     .texto2{
-        margin-left: 15vh;
+        /* text-align: center; */
+        /* margin-left: 15vh; */
         /* display: block; */
     }
 
