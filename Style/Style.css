@@ -186,7 +186,7 @@
 
 .lista2 li{
    list-style: none;
-   background-image: url(/Assets/circle-check-regular.svg);
+   background-image: url(../Assets/circle-check-regular.svg);
    background-repeat: no-repeat;
    padding-left: 25px;    
 }
@@ -526,16 +526,11 @@ footer{
     .boxx2-1 img{
         height: 190px;
     }
-    .texto2{
-        /* text-align: center; */
-        /* margin-left: 15vh; */
-        /* display: block; */
-    }
-
+    
     .Banner3{
         margin-top: 20px;
         flex-direction: column;
-        height: 2080px;
+        height: 2000px;
     }
     .box-2{
         margin-top: 30px;
@@ -544,6 +539,10 @@ footer{
     .titulo3 p{
         margin-top: 20px;
     }
+    .titulo3{
+        padding: 0px;
+        height: auto;
+    }
 
     .box-3{
         margin-top: 30px;
@@ -551,7 +550,7 @@ footer{
 
     .boxx{
        flex-direction: column;
-       margin-top: 310px;
+       /* margin-top: 310px; */
        margin-left: 50px;
     }
 
@@ -630,8 +629,8 @@ footer{
     }
     .titulo3 p{
         font-size: 11px;
-        width: 180px;
-        margin-left: -50px;
+        /* width: 180px; */
+        /* margin-left: -50px; */
     }
 
     .box-1{
@@ -639,7 +638,8 @@ footer{
         font-size: 13px;
     }
     .boxx{
-        margin-left: 40px;
+        /* margin-top: -290px; */
+        /* margin-left: 40px; */
     }
 
     .box-2{
