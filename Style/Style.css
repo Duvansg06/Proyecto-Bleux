@@ -322,7 +322,7 @@
 
 .listainfo .li-1{
 
-    background-image: url(../Assets/star-solid\ \(1\).svg);
+    background-image: url(../Assets/estrella1.svg);
 }
 
 .listainfo .li-1-1 {
@@ -331,11 +331,11 @@
 }
 
 .listainfo .li-2{
-    background-image: url(../Assets/xmark-solid\ \(1\).svg);
+    background-image: url(../Assets/estrella2.svg);
 }
 
 .listainfo .li--1{
-    background-image: url(../Assets/star2-solid.svg);
+    background-image: url(../Assets/check-solid\ \ rosado\(1\).svg);
 }
 
 
