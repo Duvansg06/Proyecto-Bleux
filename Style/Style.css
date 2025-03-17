@@ -169,7 +169,7 @@
 }
 .texto2 h3{
     font-size: 30px;
-    color: #ff3f76;
+    color: rgb(255, 63, 118);
 }
 .texto2-2 h4{
     font-size: 20px;
@@ -208,7 +208,7 @@
 /* ------------------- banner 3 ----------- */
 
 .Banner3{
-    background-color: #1e172f;
+    background-color: rgb(30, 23, 47);
     padding: 70px;
     text-align: center;
     height: 800px;
@@ -308,7 +308,7 @@
 
 .listainfo2 li{
     padding: 3px;
-    background-image: url(/Assets/check-solid.svg);
+    background-image: url(../Assets/check-solid.svg);
     background-size: 15px;
     list-style: none;
     background-repeat: no-repeat;
@@ -322,26 +322,26 @@
 
 .listainfo .li-1{
 
-    background-image: url(/Assets/star-solid\ \(1\).svg);
+    background-image: url(../Assets/star-solid\ \(1\).svg);
 }
 
 .listainfo .li-1-1 {
-    background-image: url(/Assets/xmark-solid\ \(1\).svg);
+    background-image: url(../Assets/xmark-solid\ \(1\).svg);
     
 }
 
 .listainfo .li-2{
-    background-image: url(/Assets/star2-solid.svg);
+    background-image: url(../Assets/xmark-solid\ \(1\).svg);
 }
 
 .listainfo .li--1{
-    background-image: url(/Assets/check-solid\ \ rosado\(1\).svg);
+    background-image: url(../Assets/star2-solid.svg);
 }
 
 
 .listainfo li{
     padding: 3px;
-    background-image: url(/Assets/check-solid.svg);
+    background-image: url(../Assets/check-solid.svg);
     background-size: 15px;
     list-style: none;
     background-repeat: no-repeat;
