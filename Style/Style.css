@@ -506,7 +506,7 @@ footer{
 
     .Banner2{
 
-        margin-top: 70%;
+        /* margin-top: 70%; */
         height: 650px;
     }
 
@@ -516,7 +516,7 @@ footer{
 
     .boxx2-1{
         width: 90px;
-        margin-left: 30vh;
+        display: block;
     }
 
     .boxx2-1 img{
@@ -524,6 +524,7 @@ footer{
     }
     .texto2{
         margin-left: 15vh;
+        /* display: block; */
     }
 
     .Banner3{
