@@ -1,0 +1,657 @@
+* {
+    /* padding: 0; */
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.encabezado{
+    display: flex;
+    background-color:#1e172f;
+    justify-content: space-around;
+    align-items: center;
+}
+.encabezado .logo{
+    background-color: aliceblue;
+    height: 100%;
+    display: flex;
+}
+
+.texto {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    align-items: center;
+    color: #f0f8ffb2;
+}
+
+.texto :hover{
+    color: aliceblue;
+}
+.texto button{
+    height: 40px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(to right, #751eb7, #157ed3);
+    color: white;
+}
+
+/* -------------------------- Primer Banner ---------------- */
+
+.banner1{
+    display: flex;
+    height: 90vh;
+}
+
+.boxx1{
+    width: 100%;
+    color: white;
+    background-color: #3a254e;
+    align-items: center;
+    padding: 140px;
+}
+.boxx1 h1{
+    font-size: 50px;
+
+}
+
+.boxx1 p{
+    margin-top: 40px;
+}
+
+.cajabotones{
+    margin-top: 30px;
+    height:44px;
+    align-items: center;
+    display: flex;
+    gap: 6px;
+    width: 264px;
+    /* background-color: #157ed3; */
+    border: 1px #999 solid;
+    border-radius: 2px;
+    
+}
+
+
+
+.button1{
+    height: 35px;
+    width: 140px;
+    margin-left: 3px;
+    border-radius: 2px;
+    border: none;
+    color: #ff3f76;
+    
+    
+}
+
+.button2{
+    width: 110px;
+    height: 35px;
+    border: 2px white solid;
+    border-radius: 2px;
+    background-color: #3a254e;
+    color: white;
+}
+
+
+.boxx2{
+    width: 100%;
+}
+
+.img2 img{
+    height: 350px;
+    margin-left: 80px;
+    
+}
+.img2{
+    margin-top: 150px;
+}
+
+
+
+.boxx2{
+    background-image: url(/Assets/hojasFondo.jpg) ;
+    background-size: 180%;
+    background-position: -260px;
+
+    
+
+
+
+}
+
+/* ------------------ Segundo Banner --------------- */
+
+
+
+.Banner2{
+    /* display: flex; */
+    height: 80vh;
+    background-color: white;
+}
+.titulo2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   /* background-color: antiquewhite; */
+    height: 80px;
+}
+.titulo2 h2{
+    justify-content: center;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #ff3f76; 
+    margin-bottom: -40px;
+    
+
+}
+
+.boxx2-2{
+    display: flex;
+    align-items: center;
+    /* background-color: antiquewhite; */
+    height: 60vh;
+    margin-top: 30px;
+    justify-content: space-between;
+    padding: 30px;
+    
+}
+.texto2{
+    width: 400px;
+    margin-right: 60px;
+
+}
+.texto2 p{
+    margin-top: 20px;
+}
+.texto2 h3{
+    font-size: 30px;
+    color: #ff3f76;
+}
+.texto2-2 h4{
+    font-size: 20px;
+    color: #ff3f76;
+   
+}
+.lista2{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+
+}
+
+.lista2 li{
+   list-style: none;
+   background-image: url(/Assets/circle-check-regular.svg);
+   background-repeat: no-repeat;
+   padding-left: 25px;    
+}
+
+.texto2-2{
+    margin-top: 15px;
+}
+.boxx2-1{
+    width: 100vh;
+    margin-left: 60px;
+    display: flex;
+    justify-content: center;
+}
+.boxx2-1 img{
+    height: 220px;
+    margin-left: 90px;  
+}
+
+/* ------------------- banner 3 ----------- */
+
+.Banner3{
+    background-color: #1e172f;
+    padding: 70px;
+    text-align: center;
+    height: 800px;
+}
+.titulo3 h3{
+    
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    font-size: 30px;
+}
+.titulo3 p{
+    color: white;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.titulo3{
+   padding: 0px 100px;
+   height: 150px;
+    
+}
+.precios{
+    background-color: #f5f5f2;
+    height: 60px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.precios2{
+    display: flex;
+}
+.samp1{
+    font-size: 30px;
+}
+.samp2 {
+    font-size:35px;
+}
+.samp3{
+    margin-left: 5px;
+}
+.box-2{
+    background-color: white;
+    width: 300px;
+    height: 481px;
+}
+.btn2{
+    margin-top: 20px;
+    background-color: #f5f5f2;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn2 button{
+    height: 45px;
+    width: 160px;
+    color: white;
+    background-color: #3a254e;
+    border: none;
+    border-radius: 3px;  
+}
+
+.precios-2{
+    background-color: #f5f5f2;
+    height: 60px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.precios2-2{
+    display: flex;
+}
+
+.box-3{
+    background-color: white;
+    width: 300px;
+    height: 481px;
+}
+
+.precios3{
+    background-color: #f5f5f2;
+    height: 60px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.precios3-3{
+    display: flex;
+}
+
+.listainfo2 li{
+    padding: 3px;
+    background-image: url(/Assets/check-solid.svg);
+    background-size: 15px;
+    list-style: none;
+    background-repeat: no-repeat;
+    margin: 5px;
+    
+}
+
+.listainfo ul{
+    margin-top: 20px;
+}
+
+.listainfo .li-1{
+
+    background-image: url(/Assets/star-solid\ \(1\).svg);
+}
+
+.listainfo .li-1-1 {
+    background-image: url(/Assets/xmark-solid\ \(1\).svg);
+    
+}
+
+.listainfo .li-2{
+    background-image: url(/Assets/star2-solid.svg);
+}
+
+.listainfo .li--1{
+    background-image: url(/Assets/check-solid\ \ rosado\(1\).svg);
+}
+
+
+.listainfo li{
+    padding: 3px;
+    background-image: url(/Assets/check-solid.svg);
+    background-size: 15px;
+    list-style: none;
+    background-repeat: no-repeat;
+    margin: 5px;
+}
+.listainfo p{
+    margin: 10% 5%;
+    margin-top: 30px;
+}
+.listainfo2{
+    margin-top: 20px;
+}
+.listainfo2 p{
+    margin-top: 30px;
+    margin: 10% 5%;
+
+}
+
+
+.boxx{
+    /* background-color: white; */
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    height: 450px;
+    
+}
+
+.box-1{
+    background-color: white;
+    width: 300px;
+    height: 481px;
+}
+.btn1{
+    margin-top: 20px;
+    background-color: #f5f5f2;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box-1 h3 samp{
+    color: #ff0080;
+}
+.btn1 button{
+    height: 45px;
+    width: 160px;
+    color: white;
+    background: linear-gradient(to right, #c549b7c3, #ff0080);
+    border: none;
+    border-radius: 3px;  
+}
+
+/* ---------------- Banner 4 ------------------ */
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+    /* height: 80px; */
+}
+
+.footer i{
+font-size: 20px;
+margin-right: 10px;
+}
+
+footer samp{
+    color: #ff0080;
+}
+
+footer{
+    /* height: 40px; */
+    color: white;
+    background-color: white;
+    align-items: center;
+    display: flex;
+    color: black;
+}
+
+/* -------- Medias -------- */
+
+@media (max-width: 1279px){
+    .img2 img{
+        height: 300px;
+    }
+    .img2{
+        margin-top: 100px;
+    }
+    .boxx2-1 img{
+        margin-left: 40px;
+    }
+    .boxx2-2{
+        gap: 60px;
+        height: 50%;  
+    }
+    .boxx{
+        gap: 15px;
+    }
+    .titulo3 p{
+        margin-top: 0px;
+        
+    }
+    .titulo3 h3{
+        margin-bottom: 5px;
+    }
+    .listainfo p{
+        margin: 0% ;
+    }
+
+}
+
+@media (max-width: 920px){
+    .boxx1{
+        width: 50%;
+        padding: 60px;
+    }
+
+
+    .boxx2{
+        background-color: #157ed3;
+    }
+    .boxx2-1{
+        margin-left: 0px;
+    }
+    .texto2{
+        margin-right: 0px;
+    }
+    
+    .titulo3 {
+        margin-bottom: 50px;
+    }
+
+    .listainfo ul{
+        padding: 5px;
+    }
+    .Banner3{
+        padding: 40px;
+    }
+}
+
+@media (max-width: 768px){
+
+    .encabezado{
+        flex-direction: column;
+        gap: 5px;
+        padding: 10px 0;
+    }
+    .boxx1{
+        width: 100%;
+    }
+
+    .banner1{
+     
+        flex-wrap: wrap;
+       
+    }
+    .titulo2{
+        margin-left: 20px;
+    }
+
+    .Banner2{
+
+        margin-top: 70%;
+        height: 650px;
+    }
+
+    .boxx2-2{
+        flex-wrap: wrap;   
+    }
+
+    .boxx2-1{
+        width: 90px;
+        margin-left: 30vh;
+    }
+
+    .boxx2-1 img{
+        height: 190px;
+    }
+    .texto2{
+        margin-left: 15vh;
+    }
+
+    .Banner3{
+        margin-top: 20px;
+        flex-direction: column;
+        height: 2080px;
+    }
+    .box-2{
+        margin-top: 30px;
+    }
+
+    .titulo3 p{
+        margin-top: 20px;
+    }
+
+    .box-3{
+        margin-top: 30px;
+    }
+
+    .boxx{
+       flex-direction: column;
+       margin-top: 310px;
+       margin-left: 50px;
+    }
+
+    .footer{
+      font-size: 12px;
+    }
+ 
+}
+
+@media (max-width: 480px){
+
+    .boxx1 h1{
+        font-size: 35px;
+    }
+    .boxx1 p{
+        font-size: 12px;
+    }
+    .cajabotones{
+        width: 190px;
+        gap: 0px;
+    }
+
+    .button1 {
+        font-size: 12px;
+    }
+    .button2{
+        font-size: 12px;
+        margin: 5px;
+    }
+
+    .img2 img{
+        height: 220px;
+    }
+
+
+    .encabezado{
+       font-size: 10px;
+       padding: 5px;
+    }
+
+    .boxx2-1 img{
+        height: 170px;
+        margin-right: 130px;
+    }
+
+    .titulo2 h2{
+        font-size: 20px;
+        margin-top: 40px;    
+    }
+
+    .box-1{
+        width: 200px;
+    }
+    .box-2{
+        width: 200px;
+    }
+    .box-3{
+        width: 200px;
+    }
+    .texto2{
+        margin-left: 0px;
+        margin-top: 100px;
+        font-size: 12px;
+        margin-left: 30px;
+    }
+
+    .texto2 h3{
+        font-size: 19px;
+    }
+    .texto2-2 h4{
+        font-size: 15px;
+    }
+
+    .boxx2-2{
+        gap: 0px;
+    }
+    .titulo3 p{
+        font-size: 11px;
+        width: 180px;
+        margin-left: -50px;
+    }
+
+    .box-1{
+        margin-top: -100px;
+        font-size: 13px;
+    }
+    .boxx{
+        margin-left: 40px;
+    }
+
+    .box-2{
+        margin-top: 50px;
+        font-size: 13px;
+    }
+
+    .box-3{
+        margin-top: 50px;
+        font-size: 13px;
+    }
+
+    .footer{
+        font-size: 10px;
+    }
+    .logos i{
+        font-size: 15px;
+    }
+}
+
+
